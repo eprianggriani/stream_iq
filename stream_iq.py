@@ -35,8 +35,8 @@ def main():
         kategori = outcome(iq_bulat)
 
         # Menampilkan hasil
-        st.write(f"**Nilai Z Anda adalah:** {Z:.2f}")
-        st.write(f"**Nilai IQ Anda adalah:** {iq:.2f}")
+        st.write(f"**Nilai Z Anda adalah:** {Z}")
+        st.write(f"**Nilai IQ Anda adalah:** {iq}")
         st.write(f"**Nilai IQ Anda yang dibulatkan adalah:** {iq_bulat}")
         st.write(f"**Kategori:** {kategori}")
 
